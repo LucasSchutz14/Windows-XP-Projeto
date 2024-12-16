@@ -1,0 +1,44 @@
+nav {
+  background-color: #444242; /* Cor de fundo da barra de navegação */
+  padding: 10px;
+}
+
+nav a {
+  color: white; /* Cor dos links no menu */
+  padding: 10px;
+  text-decoration: none; /* Remove o sublinhado */
+  display: inline-block; /* Faz os links ficarem lado a lado */
+}
+
+nav a:hover {
+  background-color: #3C78B5; /* Cor de fundo quando o mouse passar */
+}
+img {
+  max-width: 30%; /* Garante que a imagem se ajuste ao tamanho da tela */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px; /* Bordas arredondadas */
+  display: block; /* Remove o espaçamento abaixo da imagem */
+  margin: 0 auto; /* Centraliza a imagem */
+  /* Alinhar imagens ao lado umas das outras com float */
+}
+/* Alinhar imagens ao lado umas das outras com float */
+img {
+  float: left;
+  margin-right: 24px; /* Espaço entre as imagens */
+  max-width: 30%; /* Definir a largura das imagens */
+  height: auto; /* Manter a proporção das imagens */
+}
+
+/* Clearfix para limpar o float e evitar problemas no layout */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Tornar as imagens inline-block para ficarem lado a lado */
+img {
+  display: inline-block;
+  margin-right: 20px; /* Espaço entre as imagens */
+  max-width: 30%; /* Definir a largura das imagens */
+  height: auto; /* Manter a proporção das imagens */
+}
