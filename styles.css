@@ -1,6 +1,6 @@
 nav {
-  background-color: #444242; /* Cor de fundo da barra de navegação */
-  padding: 10px;
+  background-color: #3C78B5; /* Cor de fundo da barra de navegação */
+  padding: 8px;
 }
 
 nav a {
@@ -11,10 +11,10 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #3C78B5; /* Cor de fundo quando o mouse passar */
+  background-color: #cac5c5; /* Cor de fundo quando o mouse passar */
 }
 img {
-  max-width: 30%; /* Garante que a imagem se ajuste ao tamanho da tela */
+  max-width: 30%;
   height: auto; /* Mantém a proporção da imagem */
   border-radius: 8px; /* Bordas arredondadas */
   display: block; /* Remove o espaçamento abaixo da imagem */
@@ -42,3 +42,4 @@ img {
   max-width: 30%; /* Definir a largura das imagens */
   height: auto; /* Manter a proporção das imagens */
 }
+
