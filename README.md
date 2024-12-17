@@ -9,4 +9,5 @@ CSS,
 JavaScript,
 GitHub,
 Visual Studio Code,
+EmailJS,
 Microsoft Edge.
